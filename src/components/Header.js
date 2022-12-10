@@ -9,6 +9,8 @@ import {
   Typography,
 } from "@mui/material";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+
 
 const Header = () => {
   const isLoggedIn = useSelector((state) => state.isLoggedIn);
