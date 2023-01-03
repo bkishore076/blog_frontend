@@ -21,7 +21,7 @@ const Auth = () => {
         <Box
           maxWidth={400}
           display="flex"
-          flexDirection={"coloumn"}
+          flexDirection={"column"}
           alignItems="center"
           justifyContent={"center"}
           boxShadow="10px 10px 20px #ccc"

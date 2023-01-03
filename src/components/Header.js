@@ -30,7 +30,7 @@ const Header = () => {
             <Tab label="My Blogs" />
           </Tabs>
         </Box>}
-        <Box display="flex" marginLeft="auto">
+        <Box display="flex flex-col" marginLeft="auto">
           <Button
             LinkComponent={Link}
             to="/auth"
